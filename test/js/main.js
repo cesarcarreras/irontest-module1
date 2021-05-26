@@ -3,9 +3,8 @@
 
 //Get the first three elements of the Array without altering the original Array
 getFirtsThreeElements=()=>{
-    //...write your code here
-
-    console.log('The first three',/** here your new answer*/)
+    let firstThree = characters.slice(1,3)
+    console.log('The first three',firstThree)
 }
 //Find all the characters whose species is Aliens nad return in new array
 getAliens=()=>{
